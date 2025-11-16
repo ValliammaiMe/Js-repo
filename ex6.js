@@ -23,14 +23,14 @@ let b=birds.length;
 console.log(b);
 for (let b=0; b<birds.length; b++){
     console.log(birds[b]);
-} 
+} */
 let birds = ['parrot', 'peacock', 'eagle', 'phoenix', 'penguin'];
-//let animals = ['Dog', 'Cat', 'Elephant', 'Tiger', 'Lion'];
-//let combine = birds.concat(animals);
-//console.log("concatination done: "+ combine);
-//console.log(typeof birds);
+let animals = ['Dog', 'Cat', 'Elephant', 'Tiger', 'Lion'];
+let combine = birds.concat(animals);
+console.log("concatination done: "+ combine);
+console.log(typeof birds);
 console.log(birds);// prints as array
-//let stringchange = birds.toString();// converts array to string
+/* let stringchange = birds.toString();// converts array to string
 //console.log(stringchange);// prints as string
 console.log(birds.toString()); // (default separator)
 console.log(birds.join(' | ')); // (custom separator) 
@@ -49,6 +49,7 @@ const BakeryItems = ["Cake", "Bread", "Cookies", "Croissant", "Muffin"];
 console.log(b); */
 
 let a = [1, 2, 3, 4, 5];
-a.reduce()
+//a.reduce()
 a.reverse();
 console.log(a);
+console.log ("ex6.js file executed");

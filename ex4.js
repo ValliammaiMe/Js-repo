@@ -20,3 +20,4 @@ for (tables = 1; tables<=10; tables++) // start from 1, count up to 10, incremen
 {
     console.log(tables+"X 2 = " + (tables*2)); // take tables value and multiply by 2
 }
+console.log ("ex6.js file executed");

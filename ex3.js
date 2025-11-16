@@ -51,9 +51,10 @@ if (vowels.includes(letter.toLowerCase())) // Check if the letter is a vowel ign
 } else {
     console.log("This is not a vowel");
 }
-// ...existing code...
+/* ...existing code...
 const letter = 'J';
 const isVowel = 'aeiou'.includes(letter.toLowerCase());
-console.log(isVowel ? "This is a vowel" : "This is not a vowel");
+console.log(isVowel ? "This  is a vowel" : "This is not a vowel");
 // ...existing code...
-
+*/
+console.log ("ex3.js file executed");

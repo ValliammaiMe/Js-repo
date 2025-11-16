@@ -54,3 +54,4 @@ function Add(a,b)
 //console.log(result); //print the returned value
 //or simply
 console.log(Add(15,10)); //call the function with parameter data and print using console.log here
+console.log ("ex2.js file executed");

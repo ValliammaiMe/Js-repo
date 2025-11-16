@@ -15,3 +15,4 @@ function Iphone()
  Iphone()
  Motorola()
 module.exports={Samsung,Motorola,Iphone} 
+console.log ("ex1.js file executed");
