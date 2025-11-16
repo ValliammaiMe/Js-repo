@@ -1,0 +1,33 @@
+name: Run js Script
+
+# Triggers: on push to QA, on manual dispatch, and on schedule
+on:
+  push:
+    branches:
+      - QA
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *"  # Runs every day at 12:00 UTC
+
+jobs:
+  run-node:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run scripts
+        run: |
+          node ex1.js
+          node ex2.js
+          node ex4.js
+          node ex5.js
+          node ex6.js
