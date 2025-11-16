@@ -1,4 +1,4 @@
-console.log ("ex4.js file started the execution.. ");
+console.log ("ex3.js file execution started...");
 /* for (count=2; count<=10;count=count+=2) // start from 1, count up to 10, increment by 1
     {
     console.log("This is count number " + count); // whatever we give in console.log, take it as input
