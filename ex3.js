@@ -1,3 +1,4 @@
+console.log ("ex3.js file executed");
 /* var homework= false
 if (homework){
     console.log("Great job!")
