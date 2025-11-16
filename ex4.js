@@ -1,3 +1,4 @@
+console.log ("ex4.js file started the execution.. ");
 /* for (count=2; count<=10;count=count+=2) // start from 1, count up to 10, increment by 1
     {
     console.log("This is count number " + count); // whatever we give in console.log, take it as input
@@ -20,4 +21,4 @@ for (tables = 1; tables<=10; tables++) // start from 1, count up to 10, incremen
 {
     console.log(tables+"X 2 = " + (tables*2)); // take tables value and multiply by 2
 }
-console.log ("ex6.js file executed");
+console.log ("ex4.js file executed");
