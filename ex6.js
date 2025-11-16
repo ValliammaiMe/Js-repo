@@ -1,3 +1,4 @@
+console.log ("ex6.js file execution started...");
 /* var array = [1,2,3,4,5];
 //var arr=array[0]
 //console.log(arr);
