@@ -1,4 +1,4 @@
-console.log ("ex4.js file execution started...");
+console.log ("ex5.js file execution started...");
 let cake = {name: "Chocolate Cake", category: "Dessert"}; // Object literal notation
 console.log(Object.keys(cake).length); // to get number of keys in an object
 
