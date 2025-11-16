@@ -1,3 +1,4 @@
+console.log ("ex1.js file execution started...");
 function Samsung()
 {
     console.log("welcome to Samsung");
