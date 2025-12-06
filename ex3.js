@@ -1,5 +1,6 @@
+// If example
 console.log ("ex3.js file execution started...");
-/* var homework= false
+ var homework= false
 if (homework){
     console.log("Great job!")
 }
@@ -42,7 +43,7 @@ if (number%2==0){
 }
 else{
     console.log("Odd number")
-} */
+} 
 const letter = 'J'; // Change this letter to test different characters
 const vowels = ['a', 'e', 'i', 'o', 'u'];
 
@@ -58,4 +59,18 @@ const isVowel = 'aeiou'.includes(letter.toLowerCase());
 console.log(isVowel ? "This  is a vowel" : "This is not a vowel");
 // ...existing code...
 */
-console.log ("ex3.js file executed");
+
+//if within function and prints typeof
+function checkType(name,age,elligiblecanditate) {
+    if (typeof name === 'string'&& typeof elligiblecanditate==='boolean' && typeof age === 'number')
+         {
+      console.log('Expected inputs came which are a string, a number, and a boolean.');
+    } 
+    else {
+      console.log('The variable is not a string or a number or boolean.');
+    }
+}
+checkType('John', 25, true);
+checkType('66', 'abc', false); //method overloading mimic
+
+console.log ("ex3.js Done");

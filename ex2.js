@@ -1,5 +1,6 @@
+// function example 2
 console.log ("ex2.js file execution started...");
-/* function Samsung()
+function Samsung()
 {
     console.log("welcome to Samsung");
 }
@@ -44,7 +45,7 @@ function area(leghth, breadth)
     console.log("Area of Rectangle is: "+(leghth*breadth));
 }
 area(5,10)
-module.exports={area} */
+module.exports={area} 
 
 function Add(a,b)
 {
@@ -55,4 +56,6 @@ function Add(a,b)
 //console.log(result); //print the returned value
 //or simply
 console.log(Add(15,10)); //call the function with parameter data and print using console.log here
-console.log ("ex2.js file executed");
+
+
+console.log ("ex2.js Done");

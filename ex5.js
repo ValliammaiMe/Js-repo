@@ -1,3 +1,4 @@
+//Object example
 console.log ("ex5.js file execution started...");
 let cake = {name: "Chocolate Cake", category: "Dessert"}; // Object literal notation
 console.log(Object.keys(cake).length); // to get number of keys in an object
@@ -27,4 +28,7 @@ cake2.name="Strawberry cake";
 cake2.origin="France";
 console.log(cake2.origin); */
 
-console.log ("ex5.js file executed");
+
+
+
+console.log ("ex5.js Done");

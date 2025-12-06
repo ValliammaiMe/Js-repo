@@ -1,3 +1,4 @@
+//Function example
 console.log ("ex1.js file execution started...");
 function Samsung()
 {
@@ -15,5 +16,7 @@ function Iphone()
  Motorola() 
  Iphone()
  Motorola()
-module.exports={Samsung,Motorola,Iphone} 
-console.log ("ex1.js file executed");
+export default{Samsung,Motorola,Iphone} 
+
+
+console.log ("ex1.js Done");
