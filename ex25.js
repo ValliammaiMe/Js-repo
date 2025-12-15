@@ -6,15 +6,14 @@ const [a,b,c] = numbers //assign a=1,b=2,c=3 and doesnt care about 4,5 since we 
 console.log(a,b,c)
 
 //destructing array by using spread operator
-const [d, e, ...rest] =
-numbers //assign d=1,e=2 and rest=[3,4,5] - rest is a new array
+const [d, e, ...rest] = numbers //assign d=1,e=2 and rest=[3,4,5] - rest is a new array
 console.log(d,e,rest)
 
 //destructing objects
 const person = {uname: 'Manu', age: 20}
 const {uname,id ="123", age} = person 
 console.log(person)
-console.log(uname,id,age)
+console.log(uname,id,age) //without person.uname 
 
 //function param without destructing
 function printfullname(person2){
